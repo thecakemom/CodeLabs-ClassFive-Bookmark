@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5 - Bookmarking App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Main Content Area -->
+   <main class="container">
+    <!--PAGE HEADER -->
+    <h1>USER DATA STORAGE</h1>
+    <!--OVERLAY -->
+    <div class="overlay"></div>
+
+    <!--FORM-->
+    <form id="user-form">
+        <label for="user-name" class="sr-only">Name</label>
+        <input
+            class="user-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="User Name"
+            />
+        <button type="submit" class="btn" aria-label="Add new user">
+            ENTER
+        </button>
+    </form>
+   <!--INPUT STORAGE -->
+   <h1>USERS</h1>
+   <div class="bookmarks">
+   <!--Is this necessary? Seems so  -->
+    <ul class="user-list"></ul>
+</div>
+   </main>
+
+<script src="./main.js"></script>
+</script>
+</body>
+</html>
